@@ -1,0 +1,55 @@
+.home {
+  padding: 120px 40px 40px; /* Added top padding for fixed navbar */
+  color: white;
+  background: linear-gradient(180deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,1) 100%), url('https://assets.nflxext.com/ffe/siteui/vlv3/9d3533b2-0e32-4a2a-9e8d-720d014170dc/web/IN-en-20240304-popsignuptwoweeks-perspective_alpha_website_large.jpg') no-repeat center center fixed;
+  background-size: cover;
+  min-height: 100vh;
+  font-family: 'Netflix Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.hero-section {
+  text-align: center;
+  margin-bottom: 60px;
+  padding: 80px 0;
+}
+
+.hero-title {
+  font-size: 4rem;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
+.hero-subtitle {
+  font-size: 1.5rem;
+  color: #ccc;
+  margin-bottom: 40px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.movie-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.movie-card {
+  padding: 20px;
+  background: rgba(20, 20, 20, 0.8);
+  backdrop-filter: blur(10px);
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.movie-card:hover {
+  transform: scale(1.05);
+  background: rgba(30, 30, 30, 0.9);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+}

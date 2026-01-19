@@ -1,0 +1,110 @@
+.signup-container {
+  min-height: 100vh;
+  background: linear-gradient(135deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,1) 100%), url('https://assets.nflxext.com/ffe/siteui/vlv3/9d3533b2-0e32-4a2a-9e8d-720d014170dc/web/IN-en-20240304-popsignuptwoweeks-perspective_alpha_website_large.jpg') no-repeat center center fixed;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 100px 20px; /* Account for fixed navbar */
+  font-family: 'Netflix Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.signup-form-wrapper {
+  background: rgba(0, 0, 0, 0.85);
+  backdrop-filter: blur(10px);
+  padding: 60px 68px 40px;
+  border-radius: 8px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  width: 100%;
+  max-width: 450px;
+  color: white;
+}
+
+.signup-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 28px;
+  text-align: left;
+}
+
+.signup-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.signup-input {
+  padding: 16px 20px;
+  background: #333;
+  border: 1px solid #333;
+  border-radius: 4px;
+  color: white;
+  font-size: 1rem;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+.signup-input:focus {
+  border-color: #e50914;
+}
+
+.signup-input::placeholder {
+  color: #8c8c8c;
+}
+
+.signup-select {
+  padding: 16px 20px;
+  background: #333;
+  border: 1px solid #333;
+  border-radius: 4px;
+  color: white;
+  font-size: 1rem;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+.signup-select:focus {
+  border-color: #e50914;
+}
+
+.signup-button {
+  background: #e50914;
+  color: white;
+  border: none;
+  padding: 16px;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-top: 24px;
+}
+
+.signup-button:hover {
+  background: #f40612;
+}
+
+.signup-footer {
+  margin-top: 40px;
+  text-align: left;
+}
+
+.signup-message {
+  color: #e87c03;
+  margin-bottom: 16px;
+  font-size: 0.9rem;
+}
+
+.signin-link {
+  color: #8c8c8c;
+  font-size: 1rem;
+}
+
+.signin-link a {
+  color: white;
+  text-decoration: none;
+}
+
+.signin-link a:hover {
+  text-decoration: underline;
+}
